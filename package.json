@@ -1,13 +1,13 @@
 {
   "name": "victors-letters",
   "version": "0.1.0",
-  "private": true,
-  "homepage": "http://paleite.github.io/victors-letters",
+  "homepage": "https://paleite.github.io/victors-letters",
   "scripts": {
     "build": "react-scripts build",
-    "predeploy": "yarn run build",
-    "deploy": "gh-pages -d build",
+    "xpredeploy": "yarn run build",
+    "deploy": "gh-pages --dist build -f --repo https://github.com/paleite/victors-letters.git",
     "eject": "react-scripts eject",
+    "postinstall": "patch-package",
     "start": "react-scripts start",
     "test": "react-scripts test"
   },
@@ -30,6 +30,8 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "patch-package": "^6.2.1",
+    "postinstall-postinstall": "^2.0.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-scripts": "3.3.0"
