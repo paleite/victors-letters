@@ -1,4 +1,3 @@
-// @ts-expect-error ts-migrate(7016) FIXME: Could not find a declaration file for module 'reac... Remove this comment to see the full error message
 import React from "react";
 
 function App() {
@@ -41,11 +40,11 @@ function App() {
   };
 
   return (
-    // @ts-expect-error ts-migrate(7026) FIXME: JSX element implicitly has type 'any' because no i... Remove this comment to see the full error message
     <div className="App">
       // @ts-expect-error ts-migrate(7026) FIXME: JSX element implicitly has
       type 'any' because no i... Remove this comment to see the full error
       message
+      // @ts-expect-error ts-migrate(7026) FIXME: JSX element implicitly has type 'any' because no i... Remove this comment to see the full error message
       <input
         type="text"
         name="letter"
@@ -61,6 +60,7 @@ function App() {
       // @ts-expect-error ts-migrate(7026) FIXME: JSX element implicitly has
       type 'any' because no i... Remove this comment to see the full error
       message
+    // @ts-expect-error ts-migrate(7026) FIXME: JSX element implicitly has type 'any' because no i... Remove this comment to see the full error message
     </div>
   );
 }
