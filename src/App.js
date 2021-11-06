@@ -18,16 +18,16 @@ function App() {
   //   synth.speak(speech);
   // }, [letter, setLetter]);
 
-  const handleChange = e => {
+  const handleChange = (e) => {
     console.log("triggererd");
     const nextLetter = e.target.value.substr(-1).toUpperCase();
     setLetter(nextLetter);
 
-    (spokenLetter => {
+    ((spokenLetter) => {
       const speech = new SpeechSynthesisUtterance(spokenLetter);
       const synth = window.speechSynthesis;
       const voices = synth.getVoices();
-      const voice = voices.filter(item => item.lang === "de-DE").pop();
+      const voice = voices.filter((item) => item.lang === "de-DE").pop();
 
       console.log(voices, voice);
       speech.voice = voice;
@@ -49,7 +49,7 @@ function App() {
           width: "100vw",
           height: "100vh",
           fontSize: "100vh",
-          textAlign: "center"
+          textAlign: "center",
         }}
       />
     </div>
