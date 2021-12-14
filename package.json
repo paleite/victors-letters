@@ -4,7 +4,7 @@
   "homepage": "https://paleite.github.io/victors-letters",
   "scripts": {
     "build": "react-scripts build",
-    "deploy": "gh-pages --dist build -f --repo https://github.com/paleite/victors-letters.git",
+    "deploy": "gh-pages --dist build -f",
     "eject": "react-scripts eject",
     "postinstall": "patch-package",
     "start": "react-scripts start",
