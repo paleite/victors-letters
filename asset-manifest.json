@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/victors-letters/static/css/main.e6c13ad2.css",
+    "main.js": "/victors-letters/static/js/main.f330fe2c.js",
+    "index.html": "/victors-letters/index.html",
+    "main.e6c13ad2.css.map": "/victors-letters/static/css/main.e6c13ad2.css.map",
+    "main.f330fe2c.js.map": "/victors-letters/static/js/main.f330fe2c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.f330fe2c.js"
+  ]
+}
